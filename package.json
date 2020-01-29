@@ -1,0 +1,32 @@
+{
+  "name": "ticketswapbot_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build-watch": "tsc -w",
+    "start": "node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.15",
+    "@types/child-process-promise": "^2.2.1",
+    "@types/node-telegram-bot-api": "^0.40.1",
+    "@types/request": "^2.48.4",
+    "@types/winston": "^2.4.4",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  },
+  "author": "floris",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "child-process-promise": "^2.2.1",
+    "node-telegram-bot-api": "^0.40.0",
+    "random-useragent": "^0.3.1",
+    "request": "^2.88.0",
+    "util": "^0.12.1",
+    "winston": "^3.2.1"
+  }
+}
