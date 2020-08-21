@@ -1,3 +1,5 @@
-TicketSwap bot
+# TicketSwap bot
 
-Uses an extra chrome extension to add the product to cart.
+Nodejs backend watches the Ticketswap front-end. 
+
+Chrome extension adds the ticket to the cart.
